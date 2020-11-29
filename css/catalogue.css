@@ -1,0 +1,56 @@
+.holding-container {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  background: #F5F5F5;
+  padding: 3vw;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #969696;
+  font-style: italic;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.left-internal-container {
+  flex: 1;
+  padding: 5vw;
+}
+
+.right-internal-container {
+  flex: 1;
+  padding: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .holding-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

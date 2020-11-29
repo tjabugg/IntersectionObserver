@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  /* overflow-x: hidden; */
+
+}
+
+@font-face {
+  font-family: jenson;
+  src: url(../font/AJensonPro-Regular.otf);
+}
+
+h1 {
+  color: black;
+  font-family: jenson;
+  font-size: 4rem;
+}
+
+h2 {
+  color: black;
+  font-family: jenson;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h3 {
+  color: white;
+  font-family: jenson;
+  font-size: 1.5rem;
+  margin-left: 5vw;
+  line-height: 1.4;
+}
+
+h4 {
+  font-family: jenson;
+  font-size: 2rem;
+}
+
+h5 {
+  color: black;
+  font-family: jenson;
+  font-size: 1.3rem;
+}
+
+h6 {
+  color: black;
+  font-family: jenson;
+  font-size: 1.6rem;
+}
+
+.title a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+.title a:visited {
+  text-decoration: none;
+  color: black;
+
+}
+
+.title a:hover {
+  color: #969696;
+  font-style: italic;
+}
+
+.title a:active {
+  text-decoration: none;
+}
+
+.index {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: sticky;
+  top: 10em;
+}
+
+.intro {
+  width: 100vw;
+  height: 60vh;
+  background-color: #F3F4F4;
+  display: flex;
+}
+
+.centre-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* border: red 1px solid; */
+}
+
+.gap {
+  width: 100vw;
+  height: 50vh;
+  /* border: red 1px solid; */
+}
+
+.black-background {
+  background-color: #000000;
+}
+
+.grey-background {
+  background-color: #F5F5F5;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.potrait {
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.potrait img {
+  width: auto;
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.landscape {
+  width: 80vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+
+.landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-margin {
+  margin-left: 6vw;
+  justify-content: flex-start;
+}
+
+.right-margin {
+  margin-right: 6vw;
+  justify-content: flex-end;
+}
+
+.top-margin {
+  margin-top: 5vw;
+  justify-content: flex-start;
+}
+
+.bottom-margin {
+  margin-bottom: 5vw;
+  justify-content: flex-start;
+}
+
+.nina-test {
+  width: 32vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nina-test img {
+  width: auto;
+  height: 100%;
+}
+
+.film-clip {
+  width: 0vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.film-clip video {
+  width: auto;
+  height: 100%;
+}
+
+.medium-landscape {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.medium-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.large-landscape {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.large-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.framed-landscape {
+  width: 70vw;
+  height: 95vh;
+  display: inline;
+  justify-content: center;
+}
+
+.framed-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.angled-landscape {
+  width: 58vw;
+  height: 95vh;
+  display: inline;
+  justify-content: center;
+}
+
+.angled-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.caspers-son {
+  width: 40vw;
+  height: 90vh;
+  display: inline;
+  justify-content: center;
+}
+
+.caspers-son img {
+  width: auto;
+  height: 100%;
+}
+
+.butter-landscape {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.butter-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.xlarge-landscape {
+  width: 85vw;
+  height: 95vh;
+  display: inline;
+  justify-content: center;
+}
+
+.xlarge-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.large-angled-landscape {
+  width: 65vw;
+  height: 95vh;
+  display: inline;
+  justify-content: center;
+}
+
+.large-angled-landscape img {
+  width: auto;
+  height: 100%;
+}
+
+.index a:link {
+  text-decoration: none;
+  color: white;
+
+}
+
+.index a:visited {
+  text-decoration: none;
+  color: white;
+
+}
+
+.index a:hover {
+  color: #969696;
+  font-style: italic;
+}
+
+.index a:active {
+  text-decoration: none;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2000ms ease-in;
+  transition-delay: .5s;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+// .fade-in {
+//   opacity: 0;
+//   animation-duration: 2000ms;
+// }
+
+
+// @keyframes animate {
+
+//   from {
+//     opacity: 0;
+//   }
+
+//   to {
+//     opacity: 1;
+//   }
+// }
+
+@media screen and (max-width: 768px) {
+  .holding-container {
+    flex-direction: column;
+  }
+}
